@@ -104,7 +104,18 @@ button {
     background-color: white;
     height: 200px;
     border-radius: 1rem;
+    padding: 20px;
 }
+
+.card .title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card .text {
+    color: #636363
+}
+
 
 .projects {
     display: grid;
