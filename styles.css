@@ -52,6 +52,7 @@ h3 {
     grid-gap: 20px;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-bottom: 50px;
 }
 
 .search-bar {
