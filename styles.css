@@ -14,6 +14,9 @@ body, html {
 
 .header {
     background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .sidebar h2 {
@@ -39,4 +42,29 @@ body, html {
 
 .content {
     background-color: #e2e8f0;
+}
+
+.search-bar {
+    padding: 20px;
+    padding-left: 80px;
+}
+
+.search-bar input {
+    border-radius: 1rem;
+    border: none;
+    background-color: #e2e8f0;
+    height: 30px;
+    width: 550px;
+}
+
+.username {
+    background-color: blue;
+}
+
+.greeting {
+    background-color: purple;
+}
+
+.buttons {
+    background-color: pink;
 }
