@@ -59,6 +59,9 @@ body, html {
 
 .username {
     background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 20px;
 }
 
 .greeting {
@@ -67,4 +70,10 @@ body, html {
 
 .buttons {
     background-color: pink;
+}
+
+.username h4 {
+    color: white;
+    text-align: right;
+    grid-column: 3 / 4;
 }
