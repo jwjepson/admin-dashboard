@@ -66,6 +66,11 @@ body, html {
 
 .greeting {
     background-color: purple;
+    padding-left: 80px;
+}
+
+.greeting h3 {
+    margin: 0;
 }
 
 .buttons {
