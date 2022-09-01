@@ -74,7 +74,20 @@ body, html {
 }
 
 .buttons {
-    background-color: pink;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+button {
+    border-radius: 1rem;
+    border: none;
+    background-color: #1992d4;
+    color: white;
+    font-weight: bold;
+    min-width: 100px;
 }
 
 .username h4 {
