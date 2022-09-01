@@ -114,6 +114,10 @@ button {
     margin-top: 20px;
 }
 
+.announcement>.title {
+    margin-top: 0;
+}
+
 .card .text {
     color: #636363
 }
@@ -141,8 +145,16 @@ button {
     grid-template-rows: 1fr 8fr
 }
 
+.announcements .card {
+    display: grid;
+}
+
+.announcement {
+    font-size: 14px;
+}
+
 .announcements .card, .trending .card {
-    height: 200px;
+    height: auto;
 }
 
 .trending {
