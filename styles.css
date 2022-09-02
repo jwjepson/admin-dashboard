@@ -168,3 +168,16 @@ button {
     align-items: center;
     font-size: 14px;
 }
+
+.side-bar-icon {
+    height: 30px;
+    position: relative;
+    top: 4px;
+    right: 10px;
+}
+
+.sidebar h2>img {
+    height: 40px;
+    position: relative;
+    top: 10px;
+}
