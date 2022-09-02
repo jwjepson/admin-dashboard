@@ -91,16 +91,17 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 button {
-    border-radius: 1rem;
+    border-radius: 2rem;
     border: none;
     background-color: #1992d4;
     color: white;
     font-weight: bold;
     min-width: 100px;
+    height: 40px;
 }
 
 .username h4 {
