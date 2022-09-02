@@ -8,6 +8,11 @@ h3 {
     margin: 0;
 }
 
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .container {
     display: grid;
@@ -157,6 +162,10 @@ button:hover {
     border-left: 8px solid #f0b429;
 }
 
+.projects .card:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    cursor: pointer; 
+}
 
 .announcements {
     display: grid;
