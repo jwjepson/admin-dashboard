@@ -21,6 +21,7 @@ h3 {
     display: grid;
     grid-template-columns: 4fr 2fr;
     grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 15px;
 }
 
 .sidebar h2 {
@@ -79,7 +80,10 @@ h3 {
 }
 
 .greeting {
-    padding-left: 80px;
+    padding-left: 65px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .buttons {
@@ -203,4 +207,8 @@ button {
     position: relative;
     top: 7px;
     left: 8px;
+}
+
+.greeting .account-icon {
+    height: 70px;
 }
