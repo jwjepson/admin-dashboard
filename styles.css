@@ -118,7 +118,7 @@ button {
     margin-top: 0;
 }
 
-.card .text {
+.card .text, .trending-project {
     color: #636363
 }
 
@@ -160,4 +160,11 @@ button {
 .trending {
     display: grid;
     grid-template-rows: 1fr 8fr;
+}
+
+.trending .card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
