@@ -33,7 +33,7 @@ h3 {
     color: white;
     display: grid;
     grid-template-rows: 1fr 3fr 7fr;
-    min-width: 200px;
+    min-width: 224px;
 }
 
 .sidebar ul {
